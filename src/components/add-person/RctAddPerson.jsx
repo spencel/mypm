@@ -66,7 +66,7 @@ class RctAddPerson extends React.Component {
 				});
 		  }
 		}
-		xhttp.open("POST", "addPerson.php", true);
+		xhttp.open("POST", "../src/components/add-person/addPerson.php", true);
 		xhttp.send("Spencer Lank");
 	}
 	render() {
