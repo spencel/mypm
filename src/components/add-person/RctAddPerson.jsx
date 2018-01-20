@@ -60,6 +60,7 @@ class RctAddPerson extends React.Component {
 		;
 		var xhttp = new XMLHttpRequest();
 		xhttp.onreadystatechange = function() {
+			console.log();
 		  if (this.readyState == 4 && this.status == 200) {
 		    this.setState({
 					view: 0
